@@ -1,0 +1,16 @@
+$mobileMaxWidth: 600px;
+$desktopMaxWidth: 1240px;
+
+// desktop
+@media (max-width: $desktopMaxWidth) {
+  main {
+    background: #000;
+  }
+}
+
+// mobile
+@media (max-width: $mobileMaxWidth) {
+  main {
+    background: #ddd;
+  }
+}
