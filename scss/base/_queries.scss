@@ -1,16 +1,23 @@
-$mobileMaxWidth: 600px;
-$desktopMaxWidth: 1240px;
+$mobileMaxWidth: 740px;
+$tabletMinWidth: 1240px;
 
 // desktop
-@media (max-width: $desktopMaxWidth) {
+@media (min-width: $mobileMaxWidth) {
   main {
-    background: #000;
+    // background: #ccc;
+  }
+}
+
+// tablet
+@media (max-width: $tabletMinWidth) {
+  main {
+    // background: yellow;
   }
 }
 
 // mobile
 @media (max-width: $mobileMaxWidth) {
   main {
-    background: #ddd;
+    // background: #ddd;
   }
 }
