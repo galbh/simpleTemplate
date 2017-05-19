@@ -2,9 +2,9 @@ $mobileMaxWidth: 740px;
 $tabletMinWidth: 1240px;
 
 // desktop
-@media (min-width: $mobileMaxWidth) {
+@media (min-width: $tabletMinWidth) {
   main {
-    // background: #ccc;
+    // background: red;
   }
 }
 
@@ -18,6 +18,6 @@ $tabletMinWidth: 1240px;
 // mobile
 @media (max-width: $mobileMaxWidth) {
   main {
-    // background: #ddd;
+    // background: blue;
   }
 }
